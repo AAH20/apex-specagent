@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apex-specagent"
+version = "1.0.0"
+description = "Sovereign Speculative Tool Execution & Persistent Radix KV-Cache Engine for NVIDIA TensorRT-LLM, NIM & Blackwell Clusters with Cloudflare Clef, Hermes Paperclip, and Enterprise AI Control Plane"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Apex Growth Systems LLC", email = "engineering@apexgrowth.systems"}
+]
+keywords = [
+    "nvidia-nim",
+    "tensorrt-llm",
+    "agentic-inference",
+    "speculative-decoding",
+    "kv-cache",
+    "blackwell-gpu",
+    "nvidia-aerial",
+    "6g-developer-program",
+    "ai-ran",
+    "cloudflare-clef",
+    "hermes-paperclip",
+    "control-plane",
+    "integration-platform",
+    "zero-dependency",
+    "nvidia-inception",
+    "ai-infrastructure"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: System :: Distributed Computing"
+]
+dependencies = []
+
+[project.scripts]
+specagent = "apex_specagent.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/AAH20/apex-specagent"
+Repository = "https://github.com/AAH20/apex-specagent"
+Documentation = "https://github.com/AAH20/apex-specagent/tree/main/docs"
+ControlPlane = "https://github.com/AAH20/enterprise-ai-production-control-plane"
+IntegrationPlatform = "https://github.com/AAH20/enterprise-ai-integration-platform"
